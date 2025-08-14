@@ -17,35 +17,29 @@ const mockAbout = {
     },
     {
       category: 'Design',
-      items: ['Figma', 'Adobe XD', 'Photoshop', 'UI/UX Design'],
+      items: ['Figma', 'Photoshop', 'UI/UX Design'],
     },
     {
-      category: 'Backend',
-      items: ['Node.js', 'Express', 'MongoDB', 'PostgreSQL'],
+      category: 'Others',
+      items: ['PostgreSQL', 'Node', 'Git', 'Vite'],
     },
     {
       category: 'Tools',
-      items: ['Git', 'Docker', 'Webpack', 'Vite', 'VS Code'],
+      items: ['Webpack', 'VS Code'],
     },
   ],
   experience: [
     {
-      role: 'Senior Frontend Developer',
-      company: 'Tech Solutions Inc.',
-      duration: '2022 - Present',
-      description: 'Leading frontend development for enterprise applications',
+      role: 'Frontend Developer',
+      company: 'Digiits Agency',
+      duration: '2023-2024',
+      description: 'Worked on various web projects for clients at Digiits Agency.',
     },
     {
-      role: 'UI/UX Designer',
-      company: 'Creative Agency',
-      duration: '2020 - 2022',
-      description: 'Designed user interfaces for various client projects',
-    },
-    {
-      role: 'Web Developer',
+      role: 'Freelance Developer',
       company: 'Freelance',
-      duration: '2018 - 2020',
-      description: 'Built custom websites and web applications',
+      duration: '2024-now',
+      description: 'Providing freelance web development services.',
     },
   ],
 }
@@ -123,7 +117,7 @@ export default function About({ about = mockAbout }: AboutProps) {
                 className="text-center p-4 bg-surface rounded-lg"
               >
                 <Code2 className="w-8 h-8 mx-auto mb-2 text-accent" />
-                <div className="text-2xl font-bold">5+</div>
+                <div className="text-2xl font-bold">2+</div>
                 <div className="text-sm text-gray-400">Years Experience</div>
               </motion.div>
               <motion.div
@@ -139,8 +133,8 @@ export default function About({ about = mockAbout }: AboutProps) {
                 className="text-center p-4 bg-surface rounded-lg"
               >
                 <Palette className="w-8 h-8 mx-auto mb-2 text-accent" />
-                <div className="text-2xl font-bold">30+</div>
-                <div className="text-sm text-gray-400">Happy Clients</div>
+                <div className="text-2xl font-bold">Client Experience</div>
+                <div className="text-sm text-gray-400">Client Experience</div>
               </motion.div>
             </div>
           </motion.div>

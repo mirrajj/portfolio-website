@@ -5,11 +5,11 @@ import Link from 'next/link'
 import { Youtube, Github, Linkedin, Facebook, Instagram, Heart } from 'lucide-react'
 
 const socialLinks = [
-  { name: 'YouTube', icon: Youtube, url: 'https://youtube.com', color: 'hover:text-red-500' },
-  { name: 'GitHub', icon: Github, url: 'https://github.com', color: 'hover:text-gray-400' },
-  { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com', color: 'hover:text-blue-500' },
-  { name: 'Facebook', icon: Facebook, url: 'https://facebook.com', color: 'hover:text-blue-600' },
-  { name: 'Instagram', icon: Instagram, url: 'https://instagram.com', color: 'hover:text-pink-500' },
+  // { name: 'YouTube', icon: Youtube, url: 'https://youtube.com', color: 'hover:text-red-500' },
+  { name: 'GitHub', icon: Github, url: 'https://github.com/mirrajj', color: 'hover:text-gray-400' },
+  { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com/in/emmanuel-adonteng-745ab6321/', color: 'hover:text-blue-500' },
+  // { name: 'Facebook', icon: Facebook, url: 'https://facebook.com', color: 'hover:text-blue-600' },
+  // { name: 'Instagram', icon: Instagram, url: 'https://instagram.com', color: 'hover:text-pink-500' },
 ]
 
 const footerLinks = [

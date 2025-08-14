@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
-import { Send, Mail, Phone, MapPin, Linkedin, Github, Youtube, Facebook, Instagram } from 'lucide-react'
+import { Send, Mail, Phone, MapPin, Linkedin, Github /*, Youtube, Facebook, Instagram*/ } from 'lucide-react'
 
 const contactSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
@@ -16,11 +16,9 @@ const contactSchema = z.object({
 type ContactFormData = z.infer<typeof contactSchema>
 
 const socialLinks = [
-  { name: 'YouTube', icon: Youtube, url: 'https://youtube.com', color: 'hover:text-red-500' },
-  { name: 'GitHub', icon: Github, url: 'https://github.com', color: 'hover:text-gray-400' },
-  { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com', color: 'hover:text-blue-500' },
-  { name: 'Facebook', icon: Facebook, url: 'https://facebook.com', color: 'hover:text-blue-600' },
-  { name: 'Instagram', icon: Instagram, url: 'https://instagram.com', color: 'hover:text-pink-500' },
+  // Removed YouTube and Instagram as requested, and Facebook
+  { name: 'GitHub', icon: Github, url: 'https://github.com/mirrajj', color: 'hover:text-gray-400' },
+  { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com/in/emmanuel-adonteng-745ab6321/', color: 'hover:text-blue-500' },
 ]
 
 export default function Contact() {
